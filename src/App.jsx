@@ -6,7 +6,10 @@ import Login from './components/login.jsx'
 import Signin from './components/signin.jsx'
 import SignInPersonal from './components/singinPersonal.jsx'
 import SignInBusiness from './components/singinBusiness.jsx'
+import Mypage from './components/mypage.jsx'
+import Adminpage from './components/adminpage.jsx'
 import { Routes, Route, BrowserRouter } from "react-router-dom";
+
 
 function App() {
 
@@ -18,6 +21,8 @@ function App() {
           <Route path="/signin" element={<Signin />} />
           <Route path="/signin/personal" element={<SignInPersonal />} />
           <Route path="/signin/business" element={<SignInBusiness />} />
+          <Route path="/mypage" element={<Mypage />} />
+          <Route path="/adminpage" element={<Adminpage />} />
         </Routes>
       </BrowserRouter>
     </div>

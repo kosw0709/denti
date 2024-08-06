@@ -18,7 +18,7 @@ function Login() {
                 <input type="text" placeholder='아이디'/> <br/>
                 <input type="password" placeholder='비밀번호'/> <br/>
                 <input type="checkbox" name="" id="AutoLogin" /> <label htmlFor='AutoLogin'>자동로그인</label> <br/>
-                <input type="submit" onClick={event=>{event.preventDefault();}} value='개인회원 로그인'/> <br/>
+                <Link to="/mypage"><input type="submit"  value='개인회원 로그인'/></Link> <br/>
             </form>
             <div className='loginMenu'>
                 <a href="">아이디 찾기</a><span>|</span>
@@ -43,7 +43,7 @@ function Login() {
                 <input type="text" placeholder='아이디'/> <br/>
                 <input type="password" placeholder='비밀번호'/> <br/>
                 <input type="checkbox" name="" id="AutoLogin" /> <label htmlFor='AutoLogin'>자동로그인</label> <br/>
-                <input type="submit" onClick={event=>{event.preventDefault();}} value='기업회원 로그인'/> <br/>
+                <Link to="/adminpage"><input type="submit" value='기업회원 로그인'/></Link> <br/>
             </form>
             <div className='loginMenu'>
                 <a href="">아이디 찾기</a><span>|</span>

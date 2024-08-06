@@ -1,0 +1,57 @@
+.profileIcon{
+    width: 72px;
+    height: 72px;
+}
+
+.profileName{
+    font-family: 'Pretendard-Regular';
+    color: #467AFF;
+    font-size: 24px;
+    margin: 0;
+}
+.profileName span{
+    font-family: 'Pretendard-Regular';
+    color: #7D8488;
+    font-size: 18px;
+    margin: 0;
+}
+.profileEmail{
+    font-family: 'Pretendard-Regular';
+    color: #7D8488;
+    font-size: 18px;
+    margin: 0;
+}
+.modifyIcon{
+    width: 24px;
+}
+.profileInfoContainer{
+    margin-left: 5%;
+    margin-right: 25%;
+}
+.profileContainer{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.profileReserveContainer{
+    padding-left: 5%;
+}
+.ReserveSituation{
+    font-family: 'Pretendard-Regular';
+    font-size: 24px;
+    color: #030027;
+    margin-top: 10%;
+}
+.ReserveMessageContainer{
+    font-family: 'Pretendard-Regular';
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
